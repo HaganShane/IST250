@@ -1,2 +1,2 @@
 # IST250
-HTML Project from IST250 at Penn State
+HTML Projects from IST250 at Penn State during the Fall 2019 Semester
