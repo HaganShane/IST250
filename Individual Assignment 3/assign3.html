@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Individual Assignment 3</title>
+        <link rel="stylesheet" href="assign3.css" type="text/css">
+    </head>
+
+    <body>
+        <script src="assign3.js"></script>
+        <span id="logo"><img src="rest.png" alt="logo" style="width: 200px"></span>
+        <div class="directions">
+                <img src="map.png" alt="Map" style="height: 200px; width: 400px;">
+                <ul>
+                    <h1>Directions to Restaurant</h1>
+                    <li>We are located just outside of State College</li>
+                    <br>
+                    <li>In this case, let's start at the Westgate Building</li>
+                    <br>
+                    <li>You want to make your way to N Atherton Street</li>
+                    <br>
+                    <li>From there, continue North on N Atherton Street</li>
+                    <br>
+                    <li>You will pass the entire campus and continue</li>
+                    <br>
+                    <li>Continue down N Atherton Street for 2 miles</li>
+                    <br>
+                    <li>The Restaurant will be on your right hand side, directly on N Atherton Street</li>
+                </ul>
+            </div>
+        <div class="container">
+            <img src="tenders.jpg" class="box1" alt="Breaded chicken tenders, served with fries" style="cursor: pointer;" onclick="Click(this);">
+            <p id="desc">Breaded chicken tenders, served with fries</p>
+            <img src="salad.jpg" class="box2" alt="Fresh Caesar salad with crutons" style="cursor: pointer;" onclick="Click(this);">
+            <p id="desc">Fresh Caesar salad with crutons</p>
+            <img src="burger.jpg" class="box3" alt="A bacon cheeseburger with lettuce, tomatoes, and onion" style="cursor: pointer;" onclick="Click(this);">
+            <p id="desc">A bacon cheeseburger with lettuce, tomatoes, and onion</p>
+            <img src="parm.jpg" class="box4" alt="Breaded chicken parmesan, served with spaghetti" style="cursor: pointer;" onclick="Click(this);">
+            <p id="desc">Breaded chicken parmesan, served with spaghetti</p>
+        </div>
+
+        <div id="enlarge" class="blowup" onclick="this.style.display = 'none'">
+            <span class="closeButton" onclick="unblur()";>&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <img id="selectedImage" class="content" style="width: 500px; height: 500px">
+            <div id="caption"></div>
+        </div>
+
+        <footer id="desktop">
+            <p>
+                111-222-3333
+                &nbsp;----&nbsp;
+                121 Food Lane
+                &nbsp;----&nbsp;
+                Located right next to the mall
+                &nbsp;----&nbsp;
+                food@gmail.com
+            </p>
+        </footer>
+
+        <footer id="tablet">
+            <p>
+                111-222-3333
+                &nbsp;----&nbsp;
+                food@gmail.com
+            </p>
+        </footer>
+
+
+        
+
+        
+    </body>
+</html>
