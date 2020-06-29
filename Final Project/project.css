@@ -1,0 +1,182 @@
+.header {
+    background-image: url("board.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    min-height: 100%;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    color: black;
+}
+.pic1 {
+    background-image: url("code.gif");
+}
+
+.pic2 {
+    background-image: url("morecode.jpg");
+}
+
+.pic3 {
+    background-image: url("computers.jpg");
+}
+
+.pic4 {
+    background-image: url("sitting.jpg");
+}
+
+.pic5 {
+    background-image: url("board.jpg");
+}
+
+.pic6 {
+    background-image: url("binary.jpg");
+}
+
+.pic7 {
+    background-image: url("circuitboard.jpg");
+}
+
+.textbox {
+    background-color: white;
+    padding: 50px 80px;
+    min-height: 40%;
+    min-width: 60%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+.header, .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    min-height: 85%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.subcaption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.captionBorder {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.subBorder {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.captionResumeBorder {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.textbox a {
+    color: black;
+}
+
+.captionBorder a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+h1 {
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+}
+
+.contactName {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.contactEmail {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.contactPhone {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.contactMail {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+}
+

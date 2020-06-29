@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello User</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="project2.css" type="text/css">
+    </head>
+
+    <body>
+        <!-- Greeting box, update when user puts stuff in -->
+        <div class="row">
+            <div class="above">
+                    <div class="box">
+                        <h1 id="namewrite"></h1>
+                        <p id="messagewrite"></p>
+                    </div>
+
+            </div>
+        </div>
+
+        <!-- Left box, where the user will input information -->
+        <div class="row">
+            <div class="left">
+                <div class="box">
+                    <h1>Enter the information you want displayed above</h1>
+                    <p>******************************************************************************</p>
+                    <br>
+                    <label>Enter your name: </label>
+                    <input type="text" id="namebox" placeholder="First Name"></input>
+                    <script src="project2.js"></script>
+                    <br>
+                    <br>
+                    <label>Enter your message: </label>
+                    <input type="text" id="messagebox" placeholder="Custom Message"></input>
+                    <br>
+                    <br>
+                    <label>Select background color: </label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="white">White</option>
+                        <option value="gray">Gray</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button onclick="Submit()">Submit</button>
+                </div>
+            </div>
+
+            <!-- Right box, to do list - extra credit -->
+            <div class="right">
+                    <div class="box">
+                        <h1>To do list:</h1>
+                        <p> **Press enter to add a new item**</p>
+                        <input id="input" placeholder="Add new To-Do">
+                        <ul id="list"></ul>
+                        <button onclick="newToDo()">Add Activity</button>
+                        <script src="project2.js"></script>
+                    </div>
+            </div>
+        </div>
+
+    </body>
+</html>
