@@ -1,0 +1,148 @@
+/* 1. CSS Flexbox using different properties */
+#container {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+p {
+    font-family: 'Exo', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+li {
+    font-size: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 2. When user hovers, move it lower, display text */
+#box1:hover {
+    margin-top: 200px;
+    transition: margin 2s;
+}
+
+#box1 .text {
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    display: none;
+}
+
+#box1:hover .text {
+    display: block;
+}
+
+#box2:hover {
+    margin-top: 200px;
+    transition: margin 2s;
+}
+
+#box2 .text {
+    position: absolute;
+    font-size: 40px;
+    display: none;
+    color: aqua;
+}
+
+#box2:hover .text {
+    display: block;
+}
+
+#box3:hover {
+    margin-top: 200px;
+    transition: margin 2s;
+}
+
+#box3 .text {
+    position: absolute;
+    font-size: 40px;
+    display: none;
+    color: gold;
+}
+
+#box3:hover .text {
+    display: block;
+}
+
+#box4:hover {
+    margin-top: 200px;
+    transition: margin 2s;
+}
+
+#box4 .text {
+    position: fixed;
+    left: 1px;
+    font-size: 40px;
+    display: none;
+    color: blue;
+}
+
+#box4:hover .text {
+    display: block;
+}
+
+#box5:hover {
+    margin-top: 200px;
+    transition: margin 2s;
+}
+
+#box5 .text {
+    position: fixed;
+    left: 1px;
+    font-size: 40px;
+    display: none;
+    color: orangered;
+}
+
+#box5:hover .text {
+    display: block;
+}
+
+#text {
+    display: none;
+}
+
+/* 5. Navigation Menu between two pages */
+.nav {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* 6. HTML Footer element */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
